@@ -1,0 +1,494 @@
+body {
+    font-family: 'Montserrat';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+.yellow{
+    background-color: #F1E57D;
+}
+.green{
+    background-color:#8DD2AD ;
+}
+.blue{
+    background-color: #7DCEF1;
+}
+.red{
+    background-color: #F3A4A7;
+}
+.all-works{
+	margin-top: 10px;
+}
+.container{
+    width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.carousel {
+    position: relative;
+    width: 1160px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.carousel img {
+    width: 100%;
+    display: none;
+}
+.carousel img.active {
+    display: block;
+}
+.comment-slider{
+	margin-top: 20px;
+}
+.first-photos .arrow {
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(235, 16, 16, 0);
+    color: black;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+.arrow.left {
+    left: 10px;
+}
+.arrow.right {
+    right: 10px;
+}
+.indicators {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.indicator {
+    width: 10px;
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.indicator.active {
+    background-color: #333;
+}
+.more_buttom:hover {
+    background: #330066;
+    color: white;
+}
+.more_buttom{
+	border-radius: 10px;
+}
+.profile_h1{
+	text-align: center;
+}
+
+.first-photos{
+	margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.reviews{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.reviews p{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+}
+.customer_review{
+    width: 100%;
+    height: 311px;
+    display: flex;
+}
+.customer_text{
+    width: 50%;
+    padding: 20px 50px 0 50px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: #8DD2AD;
+    
+}
+.customer_account{
+    display: flex;
+
+}
+.customer_account_logo{
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+.comment-slider {
+    position: relative;
+    width: 80%;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.comment-slider>p{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+}
+.slider-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+.comment {
+    padding: 20px;
+    flex: 0 0 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.comment-slider>.arrow {
+    position: absolute;
+    top: 300px;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(235, 16, 16, 0);
+    color: black;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+.arrow.left {
+    left: -10px;
+}
+.arrow.right {
+    right: -10px;
+}
+.indicators {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.indicator {
+    width: 10px;
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.indicator.active {
+    background-color: #333;
+}
+.comment p {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+.comment .author {
+    margin-top: 10px;
+    text-align: right;
+    font-size: 14px;
+    color: #666;
+}
+
+
+
+
+
+
+
+.profile-slider {
+    position: relative;
+    width: 80%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.profile-slider-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+.profile {
+    flex: 0 0 33.33%;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+.profile img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.profile-info {
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.profile-info p {
+    margin: 0;
+}
+.profile-info .name {
+    font-size: 16px;
+    font-weight: bold;
+}
+.profile-info .year {
+    font-size: 14px;
+}
+.profile-slider .arrow {
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(235, 16, 16, 0);
+    color: black;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+.arrow.left {
+    left: -10px;
+}
+.arrow.right {
+    right: -10px;
+}
+
+
+
+.student-works{
+    width: 1120px;
+    margin: 0 auto;
+}
+.student-works>p{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+.all-works{
+    display: flex;
+    flex-wrap: wrap;
+}
+.all-works img{
+    display: block;
+}
+.work{
+    width: 530px;
+    height: 470px;
+}
+.student-info{
+    height: 80px;
+    padding: 10px 0 15px 15px;
+    box-sizing: border-box;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.student-year{
+    font-weight: 300;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+.student-name{
+    font-weight: 600;
+}
+.all-works>:nth-child(1){
+    margin: 0 60px 35px 0;
+}
+.all-works>:nth-child(3){
+    margin: 0 60px 35px 0;
+}
+.student-works>button{
+    display: block;
+    width: 300px;
+    height: 50px;
+    font-size:18px;
+    cursor: pointer;
+    border: 0;
+    margin: 63px auto;
+}
+
+
+
+
+
+.our-news{
+    width: 1120px;
+    margin-bottom: 20px;
+}
+.our-news>p{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+}
+.news{
+	margin-top: 20px;
+    gap: 62px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.new{
+    width: 330px;
+}
+.new-text{
+    font-size: 15px;
+    line-height: 30px;
+    padding: 21px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-sizing: border-box;
+}
+.new-text p{
+    margin: 0;
+}
+.new-img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 330px;
+}
+.contacts{
+    width: 1270px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact_blocks{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.contact *{
+    margin:0;
+}
+.contact {
+    width: 281px;
+    padding: 20px 0 30px 0;
+    height: 160px;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 10px;
+    padding-left:40px ;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+.our_addreses p:first-child{
+    font-size: 20px;
+    font-weight: 600;
+}
+.our_addreses{
+    width: 281px;
+    padding: 20px 0 20px 0;
+    height: 120px;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.adress{
+    font-weight:600;
+    line-height: 20px;
+
+}
+.red_1{
+    color: #F3A4A7;
+}
+.green_1{
+    color: #8DD2AD;
+}
+.blue_1{
+    color: #7DCEF1;
+}
+.yellow_1{
+    color: #F1E57D;
+}
+svg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.raibow_text{
+    display: flex;
+    margin: 0;
+    align-items: center;
+}
+.icon{
+    margin-right: 10px;
+}
+.new-img img{
+	border-radius: 10px 10px 0 0;
+}
+@media screen and (min-width:580px) and (max-width:800px){
+    .container{
+        width: 800px;
+    }
+    .first-photos{
+        width: 752px;
+    }
+    .first-photos img.active{
+        width: 752px;
+    }
+    .comment{
+        width: 754px;
+        height: 242px;
+    }
+    .customer_text{
+        width: 100%;
+    }
+    .customer_video img{
+        width: 335px;
+        height: 242px;
+    }
+
+
+
+
+
+
+
+
+
+}

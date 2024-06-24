@@ -1,0 +1,619 @@
+* {
+       margin: 0;   
+       padding: 0; 
+}
+
+body{
+    background-image: url("img/Group 83.png");
+    width: 96%;
+    padding: 15px 2% 0 2%;
+    margin: 0 auto;
+}
+/* навігація */
+.link{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+}
+.link a{
+    font-family: "Montserrat";
+    text-decoration:none ;
+    font-weight: bold;
+    color: black;
+    padding-bottom: 4px;
+}
+.navigation{
+    width: 92%;
+    padding: 0 4% 20px 4%;
+    display: flex;
+    justify-content: space-between;
+}
+.language{
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.language a{
+    font-family: "Montserrat"; 
+    font-weight: bold;  
+    color: black;
+    text-decoration:none ;
+}
+.greenb:hover{
+    color: #8DD2AD;
+    border-bottom: 2px solid #8DD2AD;
+    padding-bottom: 2px;
+  }
+  .redb:hover{
+    color: #F3A4A7;
+    border-bottom: 2px solid #F3A4A7;
+    padding-bottom: 2px;
+  }
+  .blueb:hover{
+    color: #7DCEF1;
+    border-bottom: 2px solid #7DCEF1;
+    padding-bottom: 2px;
+  }
+ 
+
+/* header */
+
+.header{
+    display: flex;
+    height: 400px;
+}
+.title{
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 50%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.titleH1{
+    font-family: "Montserrat";
+    font-style: 50px;
+}
+.title p {
+    font-family: "Montserrat";
+}
+.titlep1{
+    font-weight: 600;
+}
+.divPoster{
+    width: 40%;
+}
+.poster{
+    width: 85%;
+    height: 100%;
+}
+.Choose{
+    border: none;
+    width: 30%;
+    height: 50px;
+    background: #F3A4A7;
+    border-radius: 10px;
+    box-shadow: -3px 4px 10px -5px black;
+}
+.Choose:hover{
+    background: #330066;
+    color: white;
+
+}
+.Choose svg{
+	margin-right: 30%;
+}
+.Choose:hover svg{
+    color: white;
+    fill: white;
+    
+}
+.Call{
+    margin-left: 5%;
+    border: none;
+    width: 45%;
+    height: 50px;
+    background: #8DD2AD;
+    border-radius: 10px;
+    box-shadow: -3px 4px 10px -5px black; 
+}
+.Call:hover{
+    background: #330066;
+    color: white;
+}
+.buttonChoose{
+    font-family: "Montserrat";
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20%;
+}
+.Choose a{
+    color: black;
+    text-decoration: none;
+}
+.Choose:hover a{
+    color: white;
+}
+.brMobile{
+    display: none;
+}
+/* main */
+
+
+main{
+   
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 95%;
+}
+.main_text{
+    width: 50%;
+    margin-left: -50px;
+}
+.main_photo{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    width: 30%;
+}
+.main_text p{
+    font-size: 18px;
+    text-align: left;
+}
+.main_text h1{
+    padding-bottom: 15px;
+    font-size: 35px;
+}
+.buttonMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 50px;
+    background: #7DCEF1;
+    border: 0;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: -3px 4px 10px -5px black;
+}
+.buttonMain:hover svg{
+    fill: white;
+}
+.buttonMain svg{
+    margin-left: 20px;
+}
+.buttonMain p{
+    font-size: 15px;
+}
+.buttonMain:hover{
+    background: #330066;
+    color: white;
+}
+.imgMain_photo{
+    width: 90%;
+    height: 80%;
+}
+.imgMain_photoTwo{
+    display: none;
+}
+.main_text p{
+    font-family: "Montserrat";
+}
+.main_text h1{
+    font-family: "Montserrat";
+}
+/* Таблиці */
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    padding:  0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.whyUs{
+font-family: "Montserrat";
+}
+.whyWeBlocks{
+    padding-top:50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.whyWeBlocks p{
+    font-family: "Montserrat";
+    font-weight: 600;
+}
+.block1{
+    display: flex;
+    justify-content: space-around;
+}
+.block1:first-child{
+    margin-bottom: 54px;
+}
+.blocks{
+    width: 25%;
+    height: 124px;
+    border-radius: 15px;
+    padding: 34px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+}
+.block_red{
+    background-color: #F3A4A7;
+}
+.block_yellow{
+    background-color: #F1E57D; 
+}
+.block_green{
+    background-color: #8DD2AD; 
+}
+.block_blue{
+    background-color: #7DCEF1; 
+}
+.number{
+    font-size: 45px;
+}
+.benefit{
+    padding-left:25px ;
+    font-size: 20px;
+}
+
+/* Підвал */
+
+
+
+
+
+
+@media screen and (min-width:581px) and (max-width:800px){
+body{
+    width: 100%;
+}
+.block1:first-child{
+    margin-bottom: 0px;
+}
+main{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.main_text p{
+    text-align:right;
+    font-size: 16px;
+}
+.main_text h1{
+    text-align:right;
+}
+.main_text{
+    width: 50%;
+}
+.main_photo{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 40%;
+}
+.imgMain_photo{
+    display: none;
+}
+.imgMain_photoTwo{
+    display: block;
+    width: 90%;
+}
+.buttonMain{
+    margin-left: 20px;
+    width: 70%;
+}
+
+
+/* header */
+.header{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0;
+}
+.divPoster{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.poster{
+    margin-bottom: 30%;
+    width: 100%;
+    height: 70%;
+}
+.buttonNavhead{
+    width: 140%;
+    margin-top: 25px;
+    display: flex;
+}
+.Call{
+    width: 50%;
+    height: 40px;
+}
+.Choose{
+    width: 30%;
+    height: 40px;
+}
+/* таблиці */
+.whyWeBlocks{
+    flex-direction: row;
+}
+.bulckFir{
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bluckSec{
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.blocks{
+    margin-bottom: 30px;
+    width: 90%;
+}
+}
+
+@media screen and (max-width:580px) {
+    body{
+        margin-left: 5%;
+        padding: 0;
+        width: 95%;
+    }
+
+.divPoster{
+    display: none;
+}
+.header{
+    width: 100%;
+    height: 350px;
+    padding: 0;
+}
+.title{
+    width: 100%;
+}
+.brMobile{
+    display: block;
+}
+.Call{
+    width: 28%;
+}
+.main_photo{
+    display: none;
+}
+.titleH1{
+    margin-bottom: 25px;
+}
+.title p {
+    margin-left: 5%;
+}
+.buttonNavhead{
+    margin-top: 25px;
+}
+/* main */
+main{
+    margin: 0;
+    padding: 0;
+}
+.imgMain_photo{
+    display: none;
+}
+main{
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main_text{
+    padding-left: 50px;
+    width: 100%;
+}
+.main_text p{
+    text-align: right;
+}
+.main_text h1{
+    text-align: right;
+}
+.main_photo{
+    align-items: start;
+    width: 100%;
+}
+.buttonMain{
+    width: 45%;
+}
+/* container */
+.container{
+    padding: 0;
+    padding-top: 50px;
+}
+.whyWeBlocks{
+    flex-direction: column;
+}
+.bulckFir{
+    padding: 0;
+    margin: 0;
+    width: 95%;
+    height: 50%;
+    flex-direction: column;
+}
+.bluckSec{
+    padding: 0;
+    margin: 0;
+    margin-top: -10%;
+    width: 95%;
+    height: 50%;
+    flex-direction: column;
+}
+.blocks{
+    width: 100%;
+    margin-bottom: 25px;
+}
+.bluckSec > .block_green{
+ background: #7DCEF1;
+}
+.bluckSec > .block_blue{
+    background: #F3A4A7;
+   }
+   .bluckSec > .block_red{
+    background: #F1E57D;
+   }
+   .bluckSec > .block_green > .number{
+    padding-left: 30px;
+   }
+   .bluckSec > .block_blue > .number{
+    padding-left: 15px;
+   }
+   .bluckSec > .block_red{
+    padding-left: 10px;
+   }
+}
+/*футер*/
+.blue{
+    background-color: #7DCEF1;
+}
+.red{
+    background-color: #F3A4A7;
+}
+.yellow{
+    background-color: #F1E57D;
+}
+.green{
+    background-color: #8DD2AD;
+}
+.contacts h1{
+    margin-bottom: 20px;
+}
+.contacts{
+    width: 86%;
+    padding: 0 8% 0 8%;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact_blocks{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.contact *{
+    margin:0;
+}
+.contact {
+    width: 281px;
+    padding: 20px 0 30px 0;
+    height: 160px;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 10px;
+    padding-left:40px ;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+.our_addreses p:first-child{
+    font-size: 20px;
+    font-weight: 600;
+}
+.our_addreses{
+    width: 281px;
+    padding: 20px 0 20px 0;
+    height: 120px;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.adress{
+    font-weight:600;
+    line-height: 20px;
+
+}
+.red_1{
+    color: #F3A4A7;
+}
+.green_1{
+    color: #8DD2AD;
+}
+.blue_1{
+    color: #7DCEF1;
+}
+.yellow_1{
+    color: #F1E57D;
+}
+svg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.raibow_text{
+    display: flex;
+    margin: 0;
+    align-items: center;
+}
+.icon{
+    margin-right: 10px;
+}
+.Choose{
+    float: left;
+}
+@media screen and (min-width:581px) and (max-width:800px) {
+    .contacts{
+        width: 100%;
+        padding: 0;
+    }
+    .contact_blocks{
+        width: 600px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .our_addreses{
+        margin-bottom: 12px;
+    }
+}
+@media screen and (max-width:580px)  {
+    .contact_blocks{
+        width: 495px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contacts{
+        width: 100%;
+        padding: 0;
+    }
+    .contact{
+        width: 227px;
+        height: 174px;
+    }
+
+    .our_addreses{
+        width: 227px;
+        height: 134px;
+        margin-bottom: 11px;
+    }
+}

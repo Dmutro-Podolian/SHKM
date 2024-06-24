@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/22years_style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/burger.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="navigation">
+            <img src="img/logo.png" alt="">
+            <div class="link">
+                <a href="index.html" class="linkMain redb">Головна</a>
+                <a href="ourTeam.html" class="linkAboutus greenb">Про нас</a>
+                <a href="studyProg.html" class="linkCurriculum blueb">Навчальна програма</a>
+                <a href="vidguku.html" class="linkReviews redb">Відгуки</a>
+                <a href="22years.html" class="linkContacts greenb">Нам 22 роки</a>
+            </div>
+            <div class="language">
+                <img src="img/image 3.png" alt="">
+                <a href="">UA</a>
+                <p>/</p>
+                <a href="">ENG</a>
+                <img src="img/Flag_of_the_United_Kingdom_(3-5) 1.png" alt="">
+            </div>
+            <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+              <span></span>
+            </label>
+            <ul class="menu__box">
+              <li><a class="menu__item greenm" href="index.html">Головна</a></li>
+              <li><a class="menu__item yellowm" href="#">Про нас</a></li>
+              <li><a class="menu__item bluem" href="studyProg.html">Навчальна програма</a></li>
+              <li><a class="menu__item redm" href="vidguku.html">Відгуки</a></li>
+              <li><a class="menu__item greenm" href="#">Нам 22 роки</a></li>
+            </ul>
+          </div>
+        </nav>
+        <h1>Нам 22 років</h1>
+        <div class="first-photos">
+            <div class="carousel">
+                <button class="arrow left" onclick="prevSlide()">&#10094;</button>
+                <button class="arrow right" onclick="nextSlide()">&#10095;</button>
+                <img src="https://via.placeholder.com/600x400?text=1" class="active" alt="Slide 1">
+                <img src="https://via.placeholder.com/600x400?text=2" alt="Slide 2">
+                <img src="https://via.placeholder.com/600x400?text=3" alt="Slide 3">
+                <img src="https://via.placeholder.com/600x400?text=4" alt="Slide 4">
+                <img src="https://via.placeholder.com/600x400?text=5" alt="Slide 5">
+            </div>
+            <div class="indicators">
+                <div class="indicator active" onclick="goToSlide(0)"></div>
+                <div class="indicator" onclick="goToSlide(1)"></div>
+                <div class="indicator" onclick="goToSlide(2)"></div>
+                <div class="indicator" onclick="goToSlide(3)"></div>
+                <div class="indicator" onclick="goToSlide(4)"></div>
+            </div>
+        </div>
+        <div class="comment-slider">
+            <p>Історії успіху та відгуки від
+                <br> випускників школи</p>
+                <button class="arrow left" onclick="prevComment()">&#10094;</button>
+                <button class="arrow right" onclick="nextComment()">&#10095;</button>
+            <div class="slider-inner">
+                <div class="comment">
+                    <div class="customer_review">
+                        <div class="customer_video">
+                            <img src="img/Rectangle 104.png" alt="">
+                        </div>
+                        <div class="customer_text">
+                            <div class="customer_account">
+                                <div class="customer_account_logo">
+                                    <img src="img/Ellipse 6.png" alt="">
+                                </div>
+                                <div class="account_name">Guy Hawkins</div>
+                                
+                            </div>
+                            <div class="customer_comment">Його важливий комент</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="comment">
+                    <div class="customer_review">
+                        <div class="customer_video">
+                            <img src="img/Rectangle 104.png" alt="">
+                        </div>
+                        <div class="customer_text">
+                            <div class="customer_account">
+                                <div class="customer_account_logo">
+                                    <img src="img/Ellipse 6.png" alt="">
+                                </div>
+                                <div class="account_name">Guy Hawkins</div>
+                                
+                            </div>
+                            <div class="customer_comment">Його важливий комент</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="comment">
+                    <div class="customer_review">
+                        <div class="customer_video">
+                            <img src="img/Rectangle 104.png" alt="">
+                        </div>
+                        <div class="customer_text">
+                            <div class="customer_account">
+                                <div class="customer_account_logo">
+                                    <img src="img/Ellipse 6.png" alt="">
+                                </div>
+                                <div class="account_name">Guy Hawkins</div>
+                                
+                            </div>
+                            <div class="customer_comment">Його важливий комент</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="comment">
+                    <div class="customer_review">
+                        <div class="customer_video">
+                            <img src="img/Rectangle 104.png" alt="">
+                        </div>
+                        <div class="customer_text">
+                            <div class="customer_account">
+                                <div class="customer_account_logo">
+                                    <img src="img/Ellipse 6.png" alt="">
+                                </div>
+                                <div class="account_name">Guy Hawkins</div>
+                                
+                            </div>
+                            <div class="customer_comment">Його важливий комент</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="comment">
+                    <div class="customer_review">
+                        <div class="customer_video">
+                            <img src="img/Rectangle 104.png" alt="">
+                        </div>
+                        <div class="customer_text">
+                            <div class="customer_account">
+                                <div class="customer_account_logo">
+                                    <img src="img/Ellipse 6.png" alt="">
+                                </div>
+                                <div class="account_name">Guy Hawkins</div>
+                                
+                            </div>
+                            <div class="customer_comment">Його важливий комент</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="indicators comments-indicators">
+                <div class="indicator active" onclick="goToComment(0)"></div>
+                <div class="indicator" onclick="goToComment(1)"></div>
+                <div class="indicator" onclick="goToComment(2)"></div>
+                <div class="indicator" onclick="goToComment(3)"></div>
+                <div class="indicator" onclick="goToComment(4)"></div>
+            </div>
+        </div>
+        <div class="profile-slider">
+            <h1 class="profile_h1">Наші Випускники</h1>
+            <button class="arrow left" onclick="prevProfile()">&#10094;</button>
+            <button class="arrow right" onclick="nextProfile()">&#10095;</button>
+            <div class="profile-slider-inner">
+
+                <div class="profile">
+                    <img src="img/student1.png" alt="Student Photo">
+                    <div class="profile-info yellow">
+                        <p class="name">Олександр</p>
+                        <p class="year">2023</p>
+                    </div>
+                </div>
+                <div class="profile">
+                    <img src="img/student2.png" alt="Student Photo">
+                    <div class="profile-info blue">
+                        <p class="name">Ірина</p>
+                        <p class="year">2023</p>
+                    </div>
+                </div>
+                <div class="profile">
+                    <img src="img/student3.png" alt="Student Photo">
+                    <div class="profile-info red">
+                        <p class="name">Дмитро</p>
+                        <p class="year">2023</p>
+                    </div>
+                </div>
+                <div class="profile">
+                    <img src="img/student1.png" alt="Student Photo">
+                    <div class="profile-info green">
+                        <p class="name">Наталія</п>
+                        <p class="year">2023</p>
+                    </div>
+                </div>
+                <div class="profile">
+                    <img src="img/student2.png" alt="Student Photo">
+                    <div class="profile-info yellow">
+                        <p class="name">Максим</п>
+                        <p class="year">2023</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="student-works">
+            <p>Роботи учнів</p>
+            <div class="all-works">
+                <div class="work">
+                    <div class="student-info red">
+                        <div class="student-year">6 клас</div>
+                        <div class="student-name">Leslie Alexander</div>
+                    </div>
+                    <img src="img/work1.png" alt="">
+                </div>
+                <div class="work">
+                    <div class="student-info yellow">
+                        <div class="student-year">7 клас</div>
+                        <div class="student-name">Wade Warren</div>
+                    </div>
+                    <img src="img/work2.png" alt="">
+                </div>
+                <div class="work">
+                    <div class="student-info green">
+                        <div class="student-year">5 клас</div>
+                        <div class="student-name">Brooklyn Simmons</div>
+                    </div>
+                    <img src="img/work3.png" alt="">
+                </div>
+                <div class="work">
+                    <div class="student-info blue">
+                        <div class="student-year">5 клас</div>
+                        <div class="student-name">Jacob Jones</div>
+                    </div>
+                    <img src="img/work4.png" alt="">
+                </div>
+            </div>
+            <button class="green more_buttom">Показати більше</button>
+        </div>
+        <div class="our-news">
+            <p>Наші новини</p>
+            <div class="news">
+                <div class="new">
+                    <div class="new-info">
+                        <div class="new-img">
+                            <img src="img/new1.jpg" alt="" width="330px" height="330px">
+                        </div>
+                    </div>
+                    <div class="new-text yellow">
+                        <p>Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Ipsa, ex. Tenetur voluptatum asperiores adipisci fuga aspernatur voluptatibus mollitia earum nostrum, architecto, alias sed voluptas cupiditate commodi magni eveniet odio placeat!</p> 
+                    </div>
+                </div>
+                <div class="new">
+                    <div class="new-info">
+                        <div class="new-img">
+                            <img src="img/new2.jpg" alt="" width="330px" height="330px">
+                        </div>
+                    </div>
+                    <div class="new-text green">
+                        <p>Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Ipsa, ex. Tenetur voluptatum asperiores adipisci fuga aspernatur voluptatibus mollitia earum nostrum, architecto, alias sed voluptas cupiditate commodi magni eveniet odio placeat! </p>
+                    </div>
+                </div>
+                <div class="new">
+                    <div class="new-info">
+                        <div class="new-img">
+                            <img src="img/new3.jpg" alt="" width="330px" height="330px">
+                        </div>
+                    </div>
+                    <div class="new-text red">
+                        <p>Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Ipsa, ex. Tenetur voluptatum asperiores adipisci fuga aspernatur voluptatibus mollitia earum nostrum, architecto, alias sed voluptas cupiditate commodi magni eveniet odio placeat! </p>
+                    </div>
+                </div>
+                <div class="new">
+                    <div class="new-info">
+                        <div class="new-img">
+                            <img src="img/new4.jpg" alt="" width="330px" height="330px">
+                        </div>
+                    </div>
+                    <div class="new-text red">
+                        <p>Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Ipsa, ex. Tenetur voluptatum asperiores adipisci fuga aspernatur voluptatibus mollitia earum nostrum, architecto, alias sed voluptas cupiditate commodi magni eveniet odio placeat! </p>
+                    </div>
+                </div>
+                <div class="new">
+                    <div class="new-info">
+                        <div class="new-img">
+                            <img src="img/new5.jpg" alt="" width="330px" height="330px">
+                        </div>
+                    </div>
+                    <div class="new-text blue">
+                        <p>Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Ipsa, ex. Tenetur voluptatum asperiores adipisci fuga aspernatur voluptatibus mollitia earum nostrum, architecto, alias sed voluptas cupiditate commodi magni eveniet odio placeat! </p>
+                    </div>
+                </div>
+                <div class="new">
+                    <div class="new-info">
+                        <div class="new-img">
+                            <img src="img/new6.jpg" alt="" width="330px" height="330px">
+                        </div>
+                    </div>
+                    <div class="new-text yellow">
+                        <p>Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Ipsa, ex. Tenetur voluptatum asperiores adipisci fuga aspernatur voluptatibus mollitia earum nostrum, architecto, alias sed voluptas cupiditate commodi magni eveniet odio placeat! </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contacts">
+            <h1>Контакти</h1>
+            <div class="contact_blocks">
+                <div class="our_addreses yellow">
+                    <p class="raibow_text"><span class="red_1">Н</span> <span class="green_1">а</span> <span class="blue_1">ш</span> <span class="red_1">і</span> <span class="blue_1">а</span> <span class="red_1">д</span> <span class="green_1">р</span> <span class="red_1">е</span> <span class="blue_1">с</span> <span class="green_1">и</span> <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/></svg></p>
+                    <p class="adress">Ми в соц.мережах</p>
+                    <div class="icons_block">
+                        <img class="icon" src="img/facebook.png" alt="">
+                        <img class="icon" src="img/inst.png" alt="">
+                        <img class="icon" src="img/youtube.png" alt="">
+                    </div>
+                </div>
+                <div class="contact green">
+                    <p class="adress">м. Івано-Франківськ,<br>
+                        вул. Північний бульвар 5б
+                        </p>
+                    <p class="phone_number"><img class="icon" src="img/redPhone.png" alt="">(099) 23 11 519</p>
+                    <p class="phone_number"><img class="icon" src="img/yellowPhone.png" alt="">(098) 43 28 540</p>
+                </div>
+                <div class="contact blue">
+                    <p class="adress">м. Кривий Ріг,<br>
+                        вул. Співдружності 92а</p>
+                    <p class="phone_number"><img class="icon" src="img/redPhone.png" alt="">(068) 20 60 734</p>
+                    <p class="instagram"><img class="icon" src="img/insta.png" alt="">@kompschool</p>
+                </div>
+                <div class="contact red">
+                    <p class="adress">м. Запоріжжя,<br>
+                        вул. Шкільна 56</p>
+                    <p class="phone_number"><img class="icon" src="img/bluePhone.png" alt="">(067) 54 45 402</p>
+                    <p class="instagram"><img class="icon" src="img/insta.png" alt="">@kompschool_zp</p>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <script src="js/22years_script.js"></script>
+</body>
+
+</html>

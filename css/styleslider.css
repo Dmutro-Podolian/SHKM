@@ -1,0 +1,285 @@
+/* Навігація */
+
+.link{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 75%;
+}
+.link a{
+  font-family: "Montserrat";
+  text-decoration:none ;
+  font-weight: bold;
+  color: black;
+  padding-bottom: 4px;
+}
+.navigation{
+  width: 92%;
+  padding: 0 4% 20px 4%;
+  display: flex;
+  justify-content: space-between;
+}
+.language{
+  width: 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.language a{
+  font-family: "Montserrat"; 
+  font-weight: bold;  
+  color: black;
+  text-decoration:none ;
+}
+.greenb:hover{
+  color: #8DD2AD;
+  border-bottom: 2px solid #8DD2AD;
+  padding-bottom: 2px;
+}
+.redb:hover{
+  color: #F3A4A7;
+  border-bottom: 2px solid #F3A4A7;
+  padding-bottom: 2px;
+}
+.blueb:hover{
+  color: #7DCEF1;
+  border-bottom: 2px solid #7DCEF1;
+  padding-bottom: 2px;
+}
+
+/* Слайдери */
+html,
+body {
+  position: relative;
+  height: 100%;
+  background: white;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container2{
+    width: 90%;
+}
+.photo{
+    width: 15%;
+}
+.BigPhoto{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+    width: 100%;
+    height: 500px;
+}
+.room1Images{
+    background-image: url("../img/Rectangle 115.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.room2Images{
+    background-image: url("../img/Rectangle 111.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.room3Images{
+    background-image: url("../img/Rectangle 112.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.room4Images{
+    background-image: url("../img/Rectangle 113.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.room5Images{
+    background-image: url("../img/Rectangle 114.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.slider2{
+  display: none;
+}
+.swiper-scrollbar-drag{
+  background: black;
+}
+
+/* Футер */
+
+.blue{
+  background-color: #7DCEF1;
+}
+.red{
+  background-color: #F3A4A7;
+}
+.yellow{
+  background-color: #F1E57D;
+}
+.green{
+  background-color: #8DD2AD;
+}
+.contacts h1{
+  margin-bottom: 20px;
+}
+.contacts{
+  width: 86%;
+  padding: 0 8% 0 8%;
+  padding-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact_blocks{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.contact *{
+  margin:0;
+}
+.contact {
+  width: 281px;
+  padding: 20px 0 30px 0;
+  height: 160px;
+  border-radius: 15px;
+  font-size: 14px;
+  line-height: 10px;
+  padding-left:40px ;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+
+}
+.our_addreses p:first-child{
+  font-size: 20px;
+  font-weight: 600;
+}
+.our_addreses{
+  width: 281px;
+  padding: 20px 0 20px 0;
+  height: 120px;
+  border-radius: 15px;
+  font-size: 14px;
+  line-height: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.adress{
+  font-weight:600;
+  line-height: 20px;
+
+}
+.red_1{
+  color: #F3A4A7;
+}
+.green_1{
+  color: #8DD2AD;
+}
+.blue_1{
+  color: #7DCEF1;
+}
+.yellow_1{
+  color: #F1E57D;
+}
+svg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.raibow_text{
+  display: flex;
+  margin: 0;
+  align-items: center;
+}
+.icon{
+  margin-right: 10px;
+}
+.Choose{
+  float: left;
+}
+
+@media screen and (min-width:581px) and (max-width:800px) {
+  .slider{
+    display: none;
+  }
+  .slider2{
+    display: block;
+  }
+  .teacher{
+    width: 25%;
+    height: 100%;
+  }
+  .BigPhoto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+  }
+  .contacts{
+      width: 100%;
+      padding: 0;
+  }
+  .contact_blocks{
+      width: 600px;
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .our_addreses{
+      margin-bottom: 12px;
+  }
+}
+@media screen and (max-width:580px)  {
+  .slider3{
+    display: none;
+  }
+  .contact_blocks{
+      width: 495px;
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .contacts{
+      width: 100%;
+      padding: 0;
+  }
+  .contact{
+      width: 227px;
+      height: 174px;
+  }
+
+  .our_addreses{
+      width: 227px;
+      height: 134px;
+      margin-bottom: 11px;
+  }
+}

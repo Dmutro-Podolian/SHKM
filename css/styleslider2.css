@@ -1,0 +1,108 @@
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 80%;
+  height: 350px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/* Вчителі */
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.jerelal{
+  display: flex;
+  justify-content: space-evenly;
+  width: 83%;
+  margin-bottom: 50px;
+  height: 516px;
+  display: flex;
+}
+.images{
+  /* background: blue; */
+  width: 40%;
+}
+.text{
+  /* background: orange; */
+  width: 60%;
+}
+.swiper-slide{
+    display: flex;
+    justify-content: space-around;
+}
+.teacher1Images{
+  width: 30%;
+  height: 100%;
+  background-image: url(../img/photo_2023-10-05_14-03-40.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.teacher1Images2{
+  width: 30%;
+  height: 100%;
+  background-image: url(../img/photo_2023-10-24_18-41-45.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.teacher1Images3{
+  width: 30%;
+  height: 100%;
+  background-image: url(../img/photo_2023-10-24_18-41-36.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.teacher1Images4{
+  width: 30%;
+  height: 100%;
+  background-image: url(../img/photo_2023-10-24_18-41-26.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.teacher1Images5{
+  width: 30%;
+  height: 100%;
+  background-image: url(../img/photo_2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.teacher1Images6{
+  width: 30%;
+  height: 100%;
+  background-image: url(../img/photo_66.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.experience{
+  font-size: 25px;
+}
